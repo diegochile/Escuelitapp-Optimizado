@@ -5,15 +5,24 @@ escuelitapp.config(['$routeProvider',
                     function($routeProvider){
                         $routeProvider.
                     
-                        when('/animales/jirafa',{
+                        /*when('/animales/jirafa',{
                             templateUrl:'partials/jirafa.html',
                         }).
                         when('/animales/jirafa',{
                             templateUrl:'partials/jirafa.html',
                             //imagenNombre:'animal2.jpg'
-                        }).
+                        }).*/
                         otherwise({
-                            redirectTo: '/',templateUrl:'partials/inicio.html'
+                            redirectTo: '/',templateUrl:'partials/inicio.html',
+                            controller: 'prueba'
                             });
                     }]);
+
+escuelitapp.controller('prueba', ['$scope', function($scope) {
+    
+    
+
+}]);
+
+//controller:'prueba'
                         

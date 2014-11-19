@@ -1,3 +1,5 @@
+escuelitapp.controller( 'prueba' , function($scope){
+
 <!DOCTYPE html>
 <html ng-app="escuelitapp">
   <head>
@@ -52,22 +54,5 @@
   
 <!-- ng-include directive -->
 <div ng-include="'partials/footer.html'"></div>
-	
 
-
-
-    <!-- Bootstrap -->
-    <script src=""></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
-    <script src="https://code.angularjs.org/1.2.26/angular-route.min.js"></script>
-    <!-- Parse -->
-    <script src="https://www.parsecdn.com/js/parse-1.3.0.min.js"></script>
-
-    <script src="js/miParse.js"></script>
-    <script src="js/appbase.js"> </script>
-    <script src="js/prueba.js"> </script>
-
-</body>
-
-</html>
+})
